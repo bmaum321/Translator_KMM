@@ -1,0 +1,10 @@
+R_DEF: Internal format may change without notice
+local
+drawable copy
+drawable mic
+drawable speaker
+drawable swap_languages
+font sf_pro_text_bold
+font sf_pro_text_medium
+font sf_pro_text_regular
+style AppTheme
