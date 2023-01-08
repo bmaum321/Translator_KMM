@@ -1,4 +1,4 @@
-object Deps {
+object Dependencies {
 
     // COMPOSE
     private const val activityComposeVersion = "1.6.1"

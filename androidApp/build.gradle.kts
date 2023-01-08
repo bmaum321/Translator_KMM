@@ -1,11 +1,9 @@
-import org.jetbrains.kotlin.kapt3.base.Kapt.kapt
-
 plugins {
     id("com.android.application")
     kotlin("android")
     id("kotlin-kapt")
     id("dagger.hilt.android.plugin")
-    kotlin("plugin.serialization") version Deps.kotlinVersion
+    kotlin("plugin.serialization") version Dependencies.kotlinVersion
 }
 
 android {
@@ -22,7 +20,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = Deps.composeVersion
+        kotlinCompilerExtensionVersion = Dependencies.composeVersion
     }
     packagingOptions {
         resources {
@@ -38,28 +36,28 @@ android {
 
 dependencies {
     implementation(project(":shared"))
-    implementation(Deps.composeUi)
-    implementation(Deps.composeUiTooling)
-    implementation(Deps.composeUiToolingPreview)
-    implementation(Deps.composeFoundation)
-    implementation(Deps.composeMaterial)
-    implementation(Deps.activityCompose)
-    implementation(Deps.composeIconsExtended)
-    implementation(Deps.composeNavigation)
-    implementation(Deps.coilCompose)
+    implementation(Dependencies.composeUi)
+    implementation(Dependencies.composeUiTooling)
+    implementation(Dependencies.composeUiToolingPreview)
+    implementation(Dependencies.composeFoundation)
+    implementation(Dependencies.composeMaterial)
+    implementation(Dependencies.activityCompose)
+    implementation(Dependencies.composeIconsExtended)
+    implementation(Dependencies.composeNavigation)
+    implementation(Dependencies.coilCompose)
 
-    implementation(Deps.hiltAndroid)
-    kapt(Deps.hiltAndroidCompiler)
-    kapt(Deps.hiltCompiler)
-    implementation(Deps.hiltNavigationCompose)
+    implementation(Dependencies.hiltAndroid)
+    kapt(Dependencies.hiltAndroidCompiler)
+    kapt(Dependencies.hiltCompiler)
+    implementation(Dependencies.hiltNavigationCompose)
 
-    implementation(Deps.ktorAndroid)
+    implementation(Dependencies.ktorAndroid)
 
-    androidTestImplementation(Deps.testRunner)
-    androidTestImplementation(Deps.jUnit)
-    androidTestImplementation(Deps.composeTesting)
-    debugImplementation(Deps.composeTestManifest)
+    androidTestImplementation(Dependencies.testRunner)
+    androidTestImplementation(Dependencies.jUnit)
+    androidTestImplementation(Dependencies.composeTesting)
+    debugImplementation(Dependencies.composeTestManifest)
 
-    kaptAndroidTest(Deps.hiltAndroidCompiler)
-    androidTestImplementation(Deps.hiltTesting)
+    kaptAndroidTest(Dependencies.hiltAndroidCompiler)
+    androidTestImplementation(Dependencies.hiltTesting)
 }
