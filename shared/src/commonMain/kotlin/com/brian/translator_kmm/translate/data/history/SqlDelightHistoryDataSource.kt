@@ -8,10 +8,12 @@ import com.brian.translator_kmm.translate.domain.history.HistoryItem
 import com.squareup.sqldelight.runtime.coroutines.asFlow
 import com.squareup.sqldelight.runtime.coroutines.mapToList
 import kotlinx.coroutines.flow.map
+import kotlinx.datetime.Clock
+import kotlinx.datetime.LocalDateTime
 
 class SqlDelightHistoryDataSource(
     db: TranslateDatabase
-) : HistoryDataSource {
+): HistoryDataSource {
 
     private val queries = db.translateQueries
 
@@ -26,7 +28,18 @@ class SqlDelightHistoryDataSource(
             .toCommonFlow()
     }
 
-    override suspend fun insertHistoryItem(historyItem: HistoryItem) {
-        TODO("Not yet implemented")
+    /**
+     * We cant use jave libraries in shared KMM files, therefore we are using the kotlin
+     * date time library
+     */
+    override suspend fun insertHistoryItem(item: HistoryItem) {
+        queries.insertHistoryEntity(
+            id = item.id,
+            fromLanguageCode = item.fromLanguageCode,
+            fromText = item.fromText,
+            toLanguageCode = item.toLanguageCode,
+            toText = item.toText,
+            timestamp = Clock.System.now().toEpochMilliseconds()
+        )
     }
 }
