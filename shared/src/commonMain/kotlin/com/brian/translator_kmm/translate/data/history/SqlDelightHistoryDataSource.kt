@@ -29,7 +29,7 @@ class SqlDelightHistoryDataSource(
     }
 
     /**
-     * We cant use jave libraries in shared KMM files, therefore we are using the kotlin
+     * We cant use java libraries in shared KMM files, therefore we are using the kotlin
      * date time library
      */
     override suspend fun insertHistoryItem(item: HistoryItem) {

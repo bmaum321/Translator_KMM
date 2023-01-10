@@ -4,8 +4,8 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="24"
-6-->C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4058656230180513253.xml
+6-->C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4692072217742730070.xml
 7        android:targetSdkVersion="33" />
-7-->C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4058656230180513253.xml
+7-->C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4692072217742730070.xml
 8
 9</manifest>
