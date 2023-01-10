@@ -219,6 +219,7 @@ int layout notification_template_icon_group 0x7f0a0004
 int layout notification_template_part_chronometer 0x7f0a0005
 int layout notification_template_part_time 0x7f0a0006
 int string androidx_startup 0x7f0b0000
+int string close 0x7f0b0013
 int string close_drawer 0x7f0b0001
 int string close_sheet 0x7f0b0002
 int string default_error_message 0x7f0b0003
@@ -230,10 +231,12 @@ int string navigation_menu 0x7f0b0008
 int string not_selected 0x7f0b0009
 int string off 0x7f0b000a
 int string on 0x7f0b000b
+int string open 0x7f0b0014
 int string range_end 0x7f0b000c
 int string range_start 0x7f0b000d
 int string selected 0x7f0b000e
 int string status_bar_notification_info_overflow 0x7f0b000f
+int string swap_languages 0x7f0b0015
 int string switch_role 0x7f0b0010
 int string tab 0x7f0b0011
 int string template_percent 0x7f0b0012

@@ -220,6 +220,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 string androidx_startup
+string close
 string close_drawer
 string close_sheet
 string default_error_message
@@ -231,10 +232,12 @@ string navigation_menu
 string not_selected
 string off
 string on
+string open
 string range_end
 string range_start
 string selected
 string status_bar_notification_info_overflow
+string swap_languages
 string switch_role
 string tab
 string template_percent

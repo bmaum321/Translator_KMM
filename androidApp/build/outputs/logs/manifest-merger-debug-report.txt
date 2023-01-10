@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-17:12
-INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-17:12
-INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-17:12
-INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-17:12
+ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-21:12
 MERGED from [:shared] C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [com.squareup.sqldelight:android-driver:1.5.4] C:\Users\bmaum\.gradle\caches\transforms-3\e5489209372b02b1d0a0c8a4f74c333b\transformed\android-driver-1.5.4\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.ui:ui-tooling:1.4.0-alpha02] C:\Users\bmaum\.gradle\caches\transforms-3\f241e8395bf4253ca5b727169e98d802\transformed\ui-tooling-1.4.0-alpha02\AndroidManifest.xml:17:1-28:12
@@ -74,25 +74,33 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\bmaum\.gradle\ca
 MERGED from [androidx.compose.ui:ui-util:1.4.0-alpha02] C:\Users\bmaum\.gradle\caches\transforms-3\d4a64dbb5f0a7f46fc10fc32379b68d8\transformed\ui-util-1.4.0-alpha02\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.42] C:\Users\bmaum\.gradle\caches\transforms-3\46c1ad5e0a4997dc3461cea3d8ce66c8\transformed\dagger-lint-aar-2.42\AndroidManifest.xml:16:1-19:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\bmaum\.gradle\caches\transforms-3\370b78ac25771c189e7ff121838dbfee\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-17:12
-INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-17:12
-INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-21:12
 	package
 		INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml
-		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-17:12
+		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-21:12
 		INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml
-		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-17:12
+		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-21:12
 		INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml
-		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-17:12
+		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:1-21:12
 		INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:5:5-71
+	android:name
+		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:5:22-68
 application
-ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:4:5-16:19
+ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:7:5-20:19
 MERGED from [androidx.compose.ui:ui-tooling:1.4.0-alpha02] C:\Users\bmaum\.gradle\caches\transforms-3\f241e8395bf4253ca5b727169e98d802\transformed\ui-tooling-1.4.0-alpha02\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling:1.4.0-alpha02] C:\Users\bmaum\.gradle\caches\transforms-3\f241e8395bf4253ca5b727169e98d802\transformed\ui-tooling-1.4.0-alpha02\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.4.0-alpha02] C:\Users\bmaum\.gradle\caches\transforms-3\07c3d369e8400b3106242a4fbda4fcb9\transformed\ui-test-manifest-1.4.0-alpha02\AndroidManifest.xml:22:5-26:19
@@ -108,27 +116,29 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\bm
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] C:\Users\bmaum\.gradle\caches\transforms-3\1fc8c47b8575b3ebb24b4cacca0d5a58\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:10:9-35
 	android:allowBackup
-		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:5:9-36
+		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:9:9-36
 	android:theme
-		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:7:9-40
+		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:11:9-40
+	android:name
+		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:8:9-37
 activity#com.brian.translator_kmm.android.MainActivity
-ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:8:9-15:20
+ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:12:9-19:20
 	android:exported
-		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:10:13-36
+		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:9:13-41
+		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:13:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:11:13-14:29
+ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:15:13-18:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:12:17-69
+ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:12:25-66
+		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:13:17-77
+ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:13:27-74
+		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml:17:27-74
 uses-sdk
 INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\androidApp\src\main\AndroidManifest.xml

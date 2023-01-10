@@ -7,4 +7,7 @@ drawable swap_languages
 font sf_pro_text_bold
 font sf_pro_text_medium
 font sf_pro_text_regular
+string close
+string open
+string swap_languages
 style AppTheme

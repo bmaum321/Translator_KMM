@@ -4,7 +4,6 @@ import com.brian.translator_kmm.core.domain.util.Resource
 import com.brian.translator_kmm.core.domain.util.toCommonStateFlow
 import com.brian.translator_kmm.core.presentation.UiLanguage
 import com.brian.translator_kmm.translate.domain.history.HistoryDataSource
-import com.brian.translator_kmm.translate.domain.translate.TranslateError
 import com.brian.translator_kmm.translate.domain.translate.TranslateException
 import com.brian.translator_kmm.translate.domain.translate.TranslateUseCase
 import kotlinx.coroutines.CoroutineScope
@@ -12,9 +11,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
-import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.combine
-import kotlinx.coroutines.flow.lastOrNull
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.flow.updateAndGet
@@ -90,7 +87,7 @@ class TranslateViewModel(
             is TranslateEvent.ChooseToLanguage -> {
                 val newState = _state.updateAndGet { it.copy(
                     isChoosingToLanguage = false,
-                    fromLanguage = event.language
+                    toLanguage = event.language
                 ) }
                 translate(newState)
             }
@@ -143,21 +140,21 @@ class TranslateViewModel(
                 ) }
             }
             TranslateEvent.Translate -> translate(state.value)
-            TranslateEvent.closeTranslation -> {
+            TranslateEvent.CloseTranslation -> {
                 _state.update { it.copy(
                     isTranslating = false,
                     fromText = "",
                     toText = null
                 ) }
             }
-            TranslateEvent.openFromLanguageDropDown -> {
+            TranslateEvent.OpenFromLanguageDropDown -> {
                 _state.update { it.copy(
                     isChoosingFromLanguage = true,
                 ) }
             }
-            TranslateEvent.openToLanguageDropDown -> {
+            TranslateEvent.OpenToLanguageDropDown -> {
                 _state.update { it.copy(
-                    isChoosingFromLanguage = true,
+                    isChoosingToLanguage = true,
                 ) }
             }
         else -> Unit
