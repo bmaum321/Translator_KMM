@@ -11,6 +11,7 @@ public final class TranslateScreenKt {
      * just to write a UI tests. Here we just pass a state instead
      */
     @androidx.compose.runtime.Composable()
+    @kotlin.OptIn(markerClass = {androidx.compose.ui.ExperimentalComposeUiApi.class})
     public static final void TranslateScreen(@org.jetbrains.annotations.NotNull()
     com.brian.translator_kmm.translate.presentation.TranslateState state, @org.jetbrains.annotations.NotNull()
     kotlin.jvm.functions.Function1<? super com.brian.translator_kmm.translate.presentation.TranslateEvent, kotlin.Unit> onEvent) {

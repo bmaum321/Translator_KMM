@@ -8,6 +8,11 @@ font sf_pro_text_bold
 font sf_pro_text_medium
 font sf_pro_text_regular
 string close
+string copied_to_clipboard
+string copy
+string enter_a_text_to_translate
 string open
+string play_loud
 string swap_languages
+string translate
 style AppTheme
