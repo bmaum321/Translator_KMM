@@ -220,6 +220,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 string androidx_startup
+string client_error
 string close
 string close_drawer
 string close_sheet
@@ -229,6 +230,8 @@ string default_error_message
 string default_popup_window_title
 string dropdown_menu
 string enter_a_text_to_translate
+string error_service_unavailable
+string history
 string in_progress
 string indeterminate
 string navigation_menu
@@ -239,13 +242,16 @@ string open
 string play_loud
 string range_end
 string range_start
+string record_audio
 string selected
+string server_error
 string status_bar_notification_info_overflow
 string swap_languages
 string switch_role
 string tab
 string template_percent
 string translate
+string unknown_error
 style AppTheme
 style DialogWindowTheme
 style FloatingDialogTheme

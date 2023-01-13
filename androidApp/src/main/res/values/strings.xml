@@ -8,4 +8,10 @@
     <string name="copy">Copy</string>
     <string name="play_loud">Play Loud</string>
     <string name="copied_to_clipboard">Text copied to clipboard</string>
+    <string name="history">History</string>
+    <string name="error_service_unavailable">Service Unavailable</string>
+    <string name="client_error">Client Error</string>
+    <string name="server_error">Server Error</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="record_audio">Record Audio</string>
 </resources>

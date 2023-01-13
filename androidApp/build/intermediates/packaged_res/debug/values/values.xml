@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="client_error">Client Error</string>
     <string name="close">Close</string>
     <string name="copied_to_clipboard">Text copied to clipboard</string>
     <string name="copy">Copy</string>
     <string name="enter_a_text_to_translate">Enter a text to translate</string>
+    <string name="error_service_unavailable">Service Unavailable</string>
+    <string name="history">History</string>
     <string name="open">Open</string>
     <string name="play_loud">Play Loud</string>
+    <string name="record_audio">Record Audio</string>
+    <string name="server_error">Server Error</string>
     <string name="swap_languages">Swap languages</string>
     <string name="translate">Translate</string>
+    <string name="unknown_error">Unknown Error</string>
     <style name="AppTheme" parent="android:Theme.Material.NoActionBar"/>
 </resources>
