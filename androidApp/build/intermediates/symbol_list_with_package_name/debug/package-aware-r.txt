@@ -220,14 +220,19 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 string androidx_startup
+string cancel
+string clear_history
+string clear_history_dialog
 string client_error
 string close
 string close_drawer
 string close_sheet
+string confirm
 string copied_to_clipboard
 string copy
 string default_error_message
 string default_popup_window_title
+string delete_translate_history
 string dropdown_menu
 string enter_a_text_to_translate
 string error_service_unavailable
@@ -243,6 +248,7 @@ string play_loud
 string range_end
 string range_start
 string record_audio
+string scroll_to_top
 string selected
 string server_error
 string status_bar_notification_info_overflow

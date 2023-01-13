@@ -19,6 +19,8 @@ public interface TranslateQueries : Transacter {
 
   public fun getHistory(): Query<HistoryEntity>
 
+  public fun clearHistory(): Unit
+
   public fun insertHistoryEntity(
     id: Long?,
     fromLanguageCode: String,

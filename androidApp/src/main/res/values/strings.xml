@@ -14,4 +14,10 @@
     <string name="server_error">Server Error</string>
     <string name="unknown_error">Unknown Error</string>
     <string name="record_audio">Record Audio</string>
+    <string name="delete_translate_history">Delete Translation HIstory</string>
+    <string name="confirm">Confirm</string>
+    <string name="clear_history">Clear History?</string>
+    <string name="clear_history_dialog">Click confirm to clear translation history</string>
+    <string name="cancel">Cancel</string>
+    <string name="scroll_to_top">Scroll to top</string>
 </resources>

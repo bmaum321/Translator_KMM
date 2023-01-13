@@ -7,6 +7,10 @@ CREATE TABLE historyEntity(
     timestamp INTEGER NOT NULL
 );
 
+clearHistory:
+DELETE
+FROM historyEntity;
+
 getHistory:
 SELECT *
 FROM historyEntity

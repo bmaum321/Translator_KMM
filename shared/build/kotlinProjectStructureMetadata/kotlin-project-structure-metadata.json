@@ -1,0 +1,84 @@
+{
+  "projectStructure": {
+    "formatVersion": "0.3.2",
+    "isPublishedAsRoot": "true",
+    "variants": [
+      {
+        "name": "debugApiElements",
+        "sourceSet": [
+          "commonMain"
+        ]
+      },
+      {
+        "name": "debugRuntimeElements",
+        "sourceSet": [
+          "commonMain"
+        ]
+      },
+      {
+        "name": "releaseApiElements",
+        "sourceSet": [
+          "commonMain"
+        ]
+      },
+      {
+        "name": "releaseRuntimeElements",
+        "sourceSet": [
+          "commonMain"
+        ]
+      },
+      {
+        "name": "iosArm64ApiElements",
+        "sourceSet": [
+          "commonMain",
+          "iosMain"
+        ]
+      },
+      {
+        "name": "iosSimulatorArm64ApiElements",
+        "sourceSet": [
+          "commonMain",
+          "iosMain"
+        ]
+      },
+      {
+        "name": "iosX64ApiElements",
+        "sourceSet": [
+          "commonMain",
+          "iosMain"
+        ]
+      }
+    ],
+    "sourceSets": [
+      {
+        "name": "commonMain",
+        "dependsOn": [],
+        "moduleDependency": [
+          "com.squareup.sqldelight:runtime",
+          "org.jetbrains.kotlin:kotlin-stdlib-common"
+        ],
+        "binaryLayout": "klib"
+      },
+      {
+        "name": "iosMain",
+        "dependsOn": [
+          "commonMain"
+        ],
+        "moduleDependency": [
+          "com.squareup.sqldelight:runtime",
+          "org.jetbrains.kotlin:kotlin-stdlib-common",
+          "io.ktor:ktor-client-core",
+          "io.ktor:ktor-client-content-negotiation",
+          "io.ktor:ktor-serialization-kotlinx-json",
+          "com.squareup.sqldelight:coroutines-extensions",
+          "org.jetbrains.kotlinx:kotlinx-datetime",
+          "io.ktor:ktor-client-ios",
+          "com.squareup.sqldelight:native-driver"
+        ],
+        "sourceSetCInteropMetadataDirectory": "iosMain-cinterop",
+        "binaryLayout": "klib",
+        "hostSpecific": "true"
+      }
+    ]
+  }
+}

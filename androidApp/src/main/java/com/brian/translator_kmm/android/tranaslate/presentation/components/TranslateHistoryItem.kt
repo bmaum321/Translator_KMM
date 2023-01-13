@@ -52,7 +52,7 @@ fun TranslateHistoryItem(
             SmallLanguageIcon(language = item.toLanguage)
             Spacer(modifier = Modifier.width(16.dp))
             Text(
-                text = item.fromText,
+                text = item.toText,
                 color = MaterialTheme.colors.onSurface,
                 style = MaterialTheme.typography.body1,
                 fontWeight = FontWeight.Medium

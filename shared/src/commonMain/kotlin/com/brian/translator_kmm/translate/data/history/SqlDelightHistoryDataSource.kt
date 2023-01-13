@@ -42,4 +42,8 @@ class SqlDelightHistoryDataSource(
             timestamp = Clock.System.now().toEpochMilliseconds()
         )
     }
+
+    override suspend fun clearHistory() {
+        queries.clearHistory()
+    }
 }

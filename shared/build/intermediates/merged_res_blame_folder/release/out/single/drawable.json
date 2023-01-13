@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/english.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/english.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/hungarian.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/hungarian.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/slovak.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/slovak.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/french.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/french.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/polish.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/polish.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/korean.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/korean.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/czech.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/czech.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/indonesian.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/indonesian.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/portuguese.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/portuguese.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/greek.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/greek.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/irish.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/irish.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/italian.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/italian.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/japanese.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/japanese.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/german.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/german.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/hindi.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/hindi.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/russian.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/russian.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/ukrainian.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/ukrainian.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/arabic.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/arabic.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/chinese.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/chinese.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/persian.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/persian.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/turkish.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/turkish.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/finnish.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/finnish.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/danish.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/danish.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/azerbaijani.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/azerbaijani.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/dutch.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/dutch.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/swedish.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/swedish.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/spanish.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/spanish.xml"
+    },
+    {
+        "merged": "com.brian.translator_kmm.shared-merged_res-4:/drawable/hebrew.xml",
+        "source": "com.brian.translator_kmm.shared-androidMain-5:/drawable/hebrew.xml"
+    }
+]

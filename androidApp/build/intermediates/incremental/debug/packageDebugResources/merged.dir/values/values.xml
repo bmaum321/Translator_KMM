@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="cancel">Cancel</string>
+    <string name="clear_history">Clear History?</string>
+    <string name="clear_history_dialog">Click confirm to clear translation history</string>
     <string name="client_error">Client Error</string>
     <string name="close">Close</string>
+    <string name="confirm">Confirm</string>
     <string name="copied_to_clipboard">Text copied to clipboard</string>
     <string name="copy">Copy</string>
+    <string name="delete_translate_history">Delete Translation HIstory</string>
     <string name="enter_a_text_to_translate">Enter a text to translate</string>
     <string name="error_service_unavailable">Service Unavailable</string>
     <string name="history">History</string>
     <string name="open">Open</string>
     <string name="play_loud">Play Loud</string>
     <string name="record_audio">Record Audio</string>
+    <string name="scroll_to_top">Scroll to top</string>
     <string name="server_error">Server Error</string>
     <string name="swap_languages">Swap languages</string>
     <string name="translate">Translate</string>

@@ -92,6 +92,14 @@ private class TranslateQueriesImpl(
     )
   }
 
+  public override fun clearHistory(): Unit {
+    driver.execute(1701240644, """
+    |DELETE
+    |FROM historyEntity
+    """.trimMargin(), 0)
+    notifyQueries(1701240644, {database.translateQueries.getHistory})
+  }
+
   public override fun insertHistoryEntity(
     id: Long?,
     fromLanguageCode: String,

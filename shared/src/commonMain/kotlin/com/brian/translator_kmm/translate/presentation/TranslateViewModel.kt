@@ -69,6 +69,11 @@ class TranslateViewModel(
 
     fun onEvent(event: TranslateEvent) {
         when(event) {
+            is TranslateEvent.ClearTranslateHistory -> {
+                viewModelScope.launch {
+                    historyDataSource.clearHistory()
+                }
+            }
             is TranslateEvent.ChangeTranslationText -> {
                 _state.update { it.copy(
                     fromText = event.text
