@@ -1,5 +1,6 @@
 package com.brian.translator_kmm.android.tranaslate.presentation
 
+import android.speech.tts.TextToSpeech
 import android.widget.Toast
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -13,12 +14,11 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.unit.dp
-import com.brian.translator_kmm.android.tranaslate.presentation.components.LanguageDropDown
-import com.brian.translator_kmm.android.tranaslate.presentation.components.SwapLanguagesButton
-import com.brian.translator_kmm.android.tranaslate.presentation.components.TranslateTextField
 import com.brian.translator_kmm.translate.presentation.TranslateEvent
 import com.brian.translator_kmm.translate.presentation.TranslateState
 import com.brian.translator_kmm.android.R
+import com.brian.translator_kmm.android.tranaslate.presentation.components.*
+import java.util.*
 
 /**
  * An advantage of passing a state here instead of a viewmodel is that it makes the UI much easier to test.
@@ -72,6 +72,7 @@ fun TranslateScreen(
             item {
                 val clipBoardManager = LocalClipboardManager.current
                 val keyboardController = LocalSoftwareKeyboardController.current
+                val tts = rememberTextToSpeech()
                 TranslateTextField(
                     fromText = state.fromText,
                     toText = state.toText,
@@ -98,7 +99,13 @@ fun TranslateScreen(
                         ).show()
                     },
                     onSpeakerClick = {
-
+                        tts.language = state.toLanguage.toLocale() ?: Locale.ENGLISH
+                        tts.speak(
+                            state.toText,
+                            TextToSpeech.QUEUE_FLUSH,
+                            null,
+                            null
+                        )
                     },
                     onTextFieldClick = {
                         onEvent(TranslateEvent.EditTranslation)
