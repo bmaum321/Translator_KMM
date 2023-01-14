@@ -8,10 +8,13 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.ExpandLess
+import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.ExperimentalComposeUiApi
@@ -21,6 +24,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalClipboardManager
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.semantics.semantics
@@ -48,7 +52,9 @@ import java.util.*
  *
  *
  */
-@OptIn(ExperimentalComposeUiApi::class, ExperimentalAnimationApi::class)
+@OptIn(ExperimentalComposeUiApi::class, ExperimentalAnimationApi::class,
+    ExperimentalMaterial3Api::class
+)
 @Composable
 fun TranslateScreen(
     state: TranslateState,
@@ -120,9 +126,10 @@ fun TranslateScreen(
                 if (showTextToSpeechButton) {
                     FloatingActionButton(
                         onClick = { onEvent(TranslateEvent.RecordAudio) },
-                        backgroundColor = MaterialTheme.colors.primary,
-                        contentColor = MaterialTheme.colors.onPrimary,
-                        modifier = Modifier.size(75.dp)
+                        containerColor = MaterialTheme.colorScheme.primary,
+                        contentColor = MaterialTheme.colorScheme.onPrimary,
+                        modifier = Modifier.size(75.dp),
+                        shape = RoundedCornerShape(18.dp)
                     ) {
                         Icon(
                             imageVector = ImageVector.vectorResource(id = R.drawable.mic),
@@ -136,9 +143,10 @@ fun TranslateScreen(
                                 listState.animateScrollToItem(0)
                             }
                         },
-                        backgroundColor = MaterialTheme.colors.primary,
-                        contentColor = MaterialTheme.colors.onPrimary,
-                        modifier = Modifier.size(32.dp)
+                        containerColor = MaterialTheme.colorScheme.primary,
+                        contentColor = MaterialTheme.colorScheme.onPrimary,
+                        modifier = Modifier.size(32.dp),
+                        shape = RoundedCornerShape(18.dp)
                     ) {
                         Icon(
                             imageVector = Icons.Default.ExpandLess,
@@ -159,7 +167,9 @@ fun TranslateScreen(
             ) { data ->
                 Snackbar(
                     snackbarData = data,
-                    modifier = Modifier
+                    modifier = Modifier,
+                    contentColor = MaterialTheme.colorScheme.onPrimary,
+                    containerColor = MaterialTheme.colorScheme.primary,
                 )
             }
         }
@@ -247,7 +257,7 @@ fun TranslateScreen(
                 Row(modifier = Modifier.fillMaxWidth()) {
                     Text(
                         text = stringResource(id = R.string.history),
-                        style = MaterialTheme.typography.h2
+                        style = MaterialTheme.typography.titleMedium
                     )
 
                     IconButton(

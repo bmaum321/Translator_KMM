@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "com.brian.translator_kmm.android.androidApp-mergeDebugResources-51:/values-lt/values-lt.xml",
+            "outputFile": "com.brian.translator_kmm.android.androidApp-mergeDebugResources-56:/values-lt/values-lt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\1fc8c47b8575b3ebb24b4cacca0d5a58\\transformed\\core-1.8.0\\res\\values-lt\\values-lt.xml",
+                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\e7ce07f42eb7acb5857a0d2a625853c2\\transformed\\material3-1.1.0-alpha04\\res\\values-lt\\values-lt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,133,213,290,368,441",
+                        "endColumns": "77,79,76,77,72,106",
+                        "endOffsets": "128,208,285,363,436,543"
+                    },
+                    "to": {
+                        "startLines": "4,7,8,10,19,22",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "282,563,643,815,1545,1794",
+                        "endColumns": "77,79,76,77,72,106",
+                        "endOffsets": "355,638,715,888,1613,1896"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\4cbf14652e5b980d47914c55998a660d\\transformed\\core-1.9.0\\res\\values-lt\\values-lt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -13,15 +30,15 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "16",
+                        "startLines": "21",
                         "startColumns": "4",
-                        "startOffsets": "1307",
+                        "startOffsets": "1693",
                         "endColumns": "100",
-                        "endOffsets": "1403"
+                        "endOffsets": "1789"
                     }
                 },
                 {
-                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\cc0ca60a4ecde2951fbbb5f0c9c51e99\\transformed\\ui-1.4.0-alpha02\\res\\values-lt\\values-lt.xml",
+                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\1fcbfc9bfb6e5539a769a0b7a364c8f6\\transformed\\ui-1.4.0-alpha04\\res\\values-lt\\values-lt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -30,11 +47,11 @@
                         "endOffsets": "193,277,375,480,575,652,743,830,914,984,1053,1139,1227,1302,1382,1465,1587"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19",
+                        "startLines": "2,3,5,6,9,11,12,13,14,15,16,17,18,20,23,24,25",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,198,282,380,485,580,657,748,835,919,989,1058,1144,1232,1408,1488,1571",
+                        "startOffsets": "105,198,360,458,720,893,970,1061,1148,1232,1302,1371,1457,1618,1901,1981,2064",
                         "endColumns": "92,83,97,104,94,76,90,86,83,69,68,85,87,74,79,82,121",
-                        "endOffsets": "193,277,375,480,575,652,743,830,914,984,1053,1139,1227,1302,1483,1566,1688"
+                        "endOffsets": "193,277,453,558,810,965,1056,1143,1227,1297,1366,1452,1540,1688,1976,2059,2181"
                     }
                 }
             ]

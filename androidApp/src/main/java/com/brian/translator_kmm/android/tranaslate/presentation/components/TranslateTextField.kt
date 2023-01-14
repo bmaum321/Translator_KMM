@@ -9,6 +9,11 @@ import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Close
+import androidx.compose.material3.Divider
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -102,7 +107,7 @@ private fun TranslatedTextField(
         Spacer(modifier = Modifier.height(16.dp))
         Text(
             text = fromText,
-            color = MaterialTheme.colors.onSurface
+            color = MaterialTheme.colorScheme.onSurface
         )
         Spacer(modifier = Modifier.height(16.dp))
         Row(
@@ -132,7 +137,7 @@ private fun TranslatedTextField(
         Spacer(modifier = Modifier.height(16.dp))
         Text(
             text = toText,
-            color = MaterialTheme.colors.onSurface
+            color = MaterialTheme.colorScheme.onSurface
         )
         Spacer(modifier = Modifier.height(16.dp))
         Row(
@@ -175,12 +180,12 @@ private fun IdleTranslateTextField(
         BasicTextField(
             value = fromText,
             onValueChange = onTextChange,
-            cursorBrush = SolidColor(MaterialTheme.colors.primary),
+            cursorBrush = SolidColor(MaterialTheme.colorScheme.primary),
             modifier = Modifier
                 .fillMaxSize()
                 .onFocusChanged { isFocused = it.isFocused },
             textStyle = TextStyle(
-                color = MaterialTheme.colors.onSurface
+                color = MaterialTheme.colorScheme.onSurface
             )
         )
         if (fromText.isEmpty() && !isFocused) {

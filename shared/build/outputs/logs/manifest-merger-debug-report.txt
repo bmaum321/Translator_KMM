@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest17373878011238459992.xml:2:13-3:53
-INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest17373878011238459992.xml:2:13-3:53
-INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest17373878011238459992.xml:2:13-3:53
+ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12873403710865816554.xml:2:13-3:53
+INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12873403710865816554.xml:2:13-3:53
+INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12873403710865816554.xml:2:13-3:53
 	package
-		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest17373878011238459992.xml:3:16-50
-		INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest17373878011238459992.xml
-		INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest17373878011238459992.xml
+		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12873403710865816554.xml:3:16-50
+		INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12873403710865816554.xml
+		INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12873403710865816554.xml
 	xmlns:android
-		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest17373878011238459992.xml:2:23-81
+		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12873403710865816554.xml:2:23-81
 uses-sdk
-INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest17373878011238459992.xml reason: use-sdk injection requested
-INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest17373878011238459992.xml
-INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest17373878011238459992.xml
-INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest17373878011238459992.xml
-INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest17373878011238459992.xml
+INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12873403710865816554.xml reason: use-sdk injection requested
+INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12873403710865816554.xml
+INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12873403710865816554.xml
+INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12873403710865816554.xml
+INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12873403710865816554.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest17373878011238459992.xml
-		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest17373878011238459992.xml
-		INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest17373878011238459992.xml
+		INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12873403710865816554.xml
+		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12873403710865816554.xml
+		INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12873403710865816554.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest17373878011238459992.xml
-		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest17373878011238459992.xml
-		INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest17373878011238459992.xml
+		INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12873403710865816554.xml
+		ADDED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12873403710865816554.xml
+		INJECTED from C:\Users\bmaum\Documents\GitHub\Translator_KMM\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12873403710865816554.xml

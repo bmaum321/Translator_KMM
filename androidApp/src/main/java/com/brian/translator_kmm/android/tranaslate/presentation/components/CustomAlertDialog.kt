@@ -1,10 +1,10 @@
 package com.brian.translator_kmm.android.tranaslate.presentation.components
 
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.AlertDialog
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Text
-import androidx.compose.material.TextButton
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
@@ -52,7 +52,6 @@ fun CustomAlertDialog(
                 Text(text = confirmText)
             }
         },
-        shape = RoundedCornerShape(4.dp),
-        contentColor = MaterialTheme.colors.onSurface
+        //contentColor = MaterialTheme.colorScheme.onSurface
     )
 }

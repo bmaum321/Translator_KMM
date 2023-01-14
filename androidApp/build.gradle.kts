@@ -40,7 +40,7 @@ dependencies {
     implementation(Dependencies.composeUiTooling)
     implementation(Dependencies.composeUiToolingPreview)
     implementation(Dependencies.composeFoundation)
-    implementation(Dependencies.composeMaterial)
+    implementation(Dependencies.composeMaterial3)
     implementation(Dependencies.activityCompose)
     implementation(Dependencies.composeIconsExtended)
     implementation(Dependencies.composeNavigation)

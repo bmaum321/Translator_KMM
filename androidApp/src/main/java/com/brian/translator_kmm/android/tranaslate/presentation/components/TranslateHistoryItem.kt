@@ -3,8 +3,8 @@ package com.brian.translator_kmm.android.tranaslate.presentation.components
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Text
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -41,7 +41,7 @@ fun TranslateHistoryItem(
             Text(
                 text = item.fromText,
                 color = LightBlue,
-                style = MaterialTheme.typography.body2
+                style = MaterialTheme.typography.bodyMedium
             )
         }
         Spacer(modifier = Modifier.height(24.dp))
@@ -53,8 +53,8 @@ fun TranslateHistoryItem(
             Spacer(modifier = Modifier.width(16.dp))
             Text(
                 text = item.toText,
-                color = MaterialTheme.colors.onSurface,
-                style = MaterialTheme.typography.body1,
+                color = MaterialTheme.colorScheme.onSurface,
+                style = MaterialTheme.typography.bodyLarge,
                 fontWeight = FontWeight.Medium
             )
         }
