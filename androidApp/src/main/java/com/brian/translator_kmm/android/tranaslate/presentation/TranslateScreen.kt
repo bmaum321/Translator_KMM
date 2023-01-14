@@ -14,6 +14,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.ExpandLess
+import androidx.compose.material.icons.filled.Mic
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -132,8 +133,9 @@ fun TranslateScreen(
                         shape = RoundedCornerShape(18.dp)
                     ) {
                         Icon(
-                            imageVector = ImageVector.vectorResource(id = R.drawable.mic),
-                            contentDescription = stringResource(id = R.string.record_audio)
+                            imageVector = Icons.Default.Mic,
+                            contentDescription = stringResource(id = R.string.record_audio),
+                            modifier = Modifier.size(42.dp)
                         )
                     }
                 } else {
