@@ -20,4 +20,6 @@
     <string name="clear_history_dialog">Click confirm to clear translation history</string>
     <string name="cancel">Cancel</string>
     <string name="scroll_to_top">Scroll to top</string>
+    <string name="history_deleted">Translate history deleted</string>
+    <string name="undo">Undo</string>
 </resources>

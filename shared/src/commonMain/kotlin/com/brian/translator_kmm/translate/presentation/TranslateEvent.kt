@@ -27,5 +27,6 @@ sealed class TranslateEvent {
     data class SubmitVoiceResult(val result: String?): TranslateEvent()
     object OnErrorScreen: TranslateEvent()
     object ClearTranslateHistory: TranslateEvent()
+    object InsertAllHistoryItems: TranslateEvent()
 
 }

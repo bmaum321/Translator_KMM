@@ -116,6 +116,7 @@
     <string name="enter_a_text_to_translate">Enter a text to translate</string>
     <string name="error_service_unavailable">Service Unavailable</string>
     <string name="history">History</string>
+    <string name="history_deleted">Translate history deleted</string>
     <string name="in_progress">In progress</string>
     <string name="indeterminate">Partially checked</string>
     <string name="navigation_menu">"Navigation menu"</string>
@@ -136,6 +137,7 @@
     <string name="tab">Tab</string>
     <string name="template_percent"><ns2:g id="percentage">%1$d</ns2:g> percent.</string>
     <string name="translate">Translate</string>
+    <string name="undo">Undo</string>
     <string name="unknown_error">Unknown Error</string>
     <style name="AppTheme" parent="android:Theme.Material.NoActionBar"/>
     <style name="DialogWindowTheme">

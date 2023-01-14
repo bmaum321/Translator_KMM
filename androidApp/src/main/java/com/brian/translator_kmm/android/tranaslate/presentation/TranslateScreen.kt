@@ -5,6 +5,7 @@ import android.widget.Toast
 import androidx.compose.animation.*
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.*
@@ -22,6 +23,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.testTag
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -33,6 +36,7 @@ import com.brian.translator_kmm.core.domain.language.Language
 import com.brian.translator_kmm.core.presentation.UiLanguage
 import com.brian.translator_kmm.translate.domain.translate.TranslateError
 import com.brian.translator_kmm.translate.presentation.UiHistoryItem
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
 import java.util.*
@@ -48,16 +52,16 @@ import java.util.*
 @Composable
 fun TranslateScreen(
     state: TranslateState,
-    onEvent: (TranslateEvent) -> Unit
+    onEvent: (TranslateEvent) -> Unit,
+    coroutineScope: CoroutineScope = rememberCoroutineScope(),
+    listState: LazyListState = rememberLazyListState(),
 ) {
     var openClearHistoryDialog by remember { mutableStateOf(false) }
     val context = LocalContext.current
-    val listState = rememberLazyListState()
-    val coroutineScope = rememberCoroutineScope()
-
     val showTextToSpeechButton by remember {
         derivedStateOf { listState.firstVisibleItemIndex == 0 }
     }
+    val snackbarHostState = remember { SnackbarHostState() }
 
 
     if (openClearHistoryDialog) {
@@ -70,6 +74,23 @@ fun TranslateScreen(
             confirmButtonOnClick = {
                 onEvent(TranslateEvent.ClearTranslateHistory)
                 openClearHistoryDialog = false
+                coroutineScope.launch {
+                    val snacbarResult = snackbarHostState.showSnackbar(
+                        message = context.getString(R.string.history_deleted),
+                        duration = SnackbarDuration.Short,
+                        actionLabel = context.getString(R.string.undo)
+                    )
+
+                    when(snacbarResult) {
+                        SnackbarResult.ActionPerformed -> {
+                            onEvent(TranslateEvent.InsertAllHistoryItems)
+                        }
+                        SnackbarResult.Dismissed -> {
+
+                        }
+                    }
+                }
+
             },
             confirmText = stringResource(id = R.string.confirm),
             modifier = Modifier
@@ -129,7 +150,19 @@ fun TranslateScreen(
             }
 
         },
-        floatingActionButtonPosition = FabPosition.Center
+        floatingActionButtonPosition = FabPosition.Center,
+        snackbarHost = {
+            SnackbarHost(
+                hostState = snackbarHostState,
+                modifier = Modifier
+                    .animateContentSize()
+            ) { data ->
+                Snackbar(
+                    snackbarData = data,
+                    modifier = Modifier
+                )
+            }
+        }
     ) { paddingValues ->
 
         Column(
@@ -223,7 +256,7 @@ fun TranslateScreen(
                         Icon(
                             imageVector = Icons.Default.Delete,
                             contentDescription = stringResource(id = R.string.delete_translate_history),
-                            tint = Color.Red
+                            //tint = Color.Red
                         )
                     }
                 }

@@ -19,6 +19,7 @@ string delete_translate_history
 string enter_a_text_to_translate
 string error_service_unavailable
 string history
+string history_deleted
 string open
 string play_loud
 string record_audio
@@ -26,5 +27,6 @@ string scroll_to_top
 string server_error
 string swap_languages
 string translate
+string undo
 string unknown_error
 style AppTheme

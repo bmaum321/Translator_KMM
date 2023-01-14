@@ -8,4 +8,6 @@ interface HistoryDataSource {
     suspend fun insertHistoryItem(historyItem: HistoryItem)
 
     suspend fun clearHistory()
+
+    suspend fun insertAllHistoryItems(historyItems: List<HistoryItem>)
 }

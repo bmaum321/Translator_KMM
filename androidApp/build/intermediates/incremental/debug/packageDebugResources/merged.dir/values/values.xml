@@ -12,6 +12,7 @@
     <string name="enter_a_text_to_translate">Enter a text to translate</string>
     <string name="error_service_unavailable">Service Unavailable</string>
     <string name="history">History</string>
+    <string name="history_deleted">Translate history deleted</string>
     <string name="open">Open</string>
     <string name="play_loud">Play Loud</string>
     <string name="record_audio">Record Audio</string>
@@ -19,6 +20,7 @@
     <string name="server_error">Server Error</string>
     <string name="swap_languages">Swap languages</string>
     <string name="translate">Translate</string>
+    <string name="undo">Undo</string>
     <string name="unknown_error">Unknown Error</string>
     <style name="AppTheme" parent="android:Theme.Material.NoActionBar"/>
 </resources>

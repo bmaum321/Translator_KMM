@@ -237,6 +237,7 @@ string dropdown_menu
 string enter_a_text_to_translate
 string error_service_unavailable
 string history
+string history_deleted
 string in_progress
 string indeterminate
 string navigation_menu
@@ -257,6 +258,7 @@ string switch_role
 string tab
 string template_percent
 string translate
+string undo
 string unknown_error
 style AppTheme
 style DialogWindowTheme
