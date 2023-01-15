@@ -220,6 +220,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 string androidx_startup
+string apply
 string cancel
 string clear_history
 string clear_history_dialog
@@ -245,11 +246,13 @@ string dismiss
 string dropdown_menu
 string enter_a_text_to_translate
 string error_service_unavailable
+string error_speeach_recog_not_available
 string expanded
 string history
 string history_deleted
 string in_progress
 string indeterminate
+string listening
 string navigation_menu
 string not_selected
 string off
@@ -258,12 +261,15 @@ string open
 string play_loud
 string range_end
 string range_start
+string record_again
 string record_audio
 string scroll_to_top
 string search
 string selected
 string server_error
+string start_talking
 string status_bar_notification_info_overflow
+string stop_recording
 string suggestions_available
 string swap_languages
 string switch_role

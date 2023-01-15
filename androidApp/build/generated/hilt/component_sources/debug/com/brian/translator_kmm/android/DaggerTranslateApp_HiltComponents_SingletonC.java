@@ -15,9 +15,13 @@ import com.brian.translator_kmm.android.di.AppModule_ProvideTranslateClientFacto
 import com.brian.translator_kmm.android.di.AppModule_ProvideTranslateUseCaseFactory;
 import com.brian.translator_kmm.android.tranaslate.presentation.AndroidTranslateViewModel;
 import com.brian.translator_kmm.android.tranaslate.presentation.AndroidTranslateViewModel_HiltModules_KeyModule_ProvideFactory;
+import com.brian.translator_kmm.android.voiceToText.di.VoiceToTextModule_ProvidedVoiceToTextParserFactory;
+import com.brian.translator_kmm.android.voiceToText.presentation.AndroidVoiceToTextViewModel;
+import com.brian.translator_kmm.android.voiceToText.presentation.AndroidVoiceToTextViewModel_HiltModules_KeyModule_ProvideFactory;
 import com.brian.translator_kmm.translate.domain.history.HistoryDataSource;
 import com.brian.translator_kmm.translate.domain.translate.TranslateClient;
 import com.brian.translator_kmm.translate.domain.translate.TranslateUseCase;
+import com.brian.translator_kmm.voicetotext.domain.VoiceToTextParser;
 import com.squareup.sqldelight.db.SqlDriver;
 import dagger.hilt.android.ActivityRetainedLifecycle;
 import dagger.hilt.android.flags.HiltWrapper_FragmentGetContextFix_FragmentGetContextFixModule;
@@ -35,7 +39,9 @@ import dagger.hilt.android.internal.modules.ApplicationContextModule;
 import dagger.hilt.android.internal.modules.ApplicationContextModule_ProvideApplicationFactory;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.DoubleCheck;
+import dagger.internal.MapBuilder;
 import dagger.internal.Preconditions;
+import dagger.internal.SetBuilder;
 import io.ktor.client.HttpClient;
 import java.util.Collections;
 import java.util.Map;
@@ -367,7 +373,7 @@ public final class DaggerTranslateApp_HiltComponents_SingletonC {
 
     @Override
     public Set<String> getViewModelKeys() {
-      return Collections.<String>singleton(AndroidTranslateViewModel_HiltModules_KeyModule_ProvideFactory.provide());
+      return SetBuilder.<String>newSetBuilder(2).add(AndroidTranslateViewModel_HiltModules_KeyModule_ProvideFactory.provide()).add(AndroidVoiceToTextViewModel_HiltModules_KeyModule_ProvideFactory.provide()).build();
     }
 
     @Override
@@ -395,6 +401,10 @@ public final class DaggerTranslateApp_HiltComponents_SingletonC {
 
     private Provider<AndroidTranslateViewModel> androidTranslateViewModelProvider;
 
+    private Provider<VoiceToTextParser> providedVoiceToTextParserProvider;
+
+    private Provider<AndroidVoiceToTextViewModel> androidVoiceToTextViewModelProvider;
+
     private ViewModelCImpl(SingletonCImpl singletonCImpl,
         ActivityRetainedCImpl activityRetainedCImpl, SavedStateHandle savedStateHandleParam) {
       this.singletonCImpl = singletonCImpl;
@@ -407,11 +417,13 @@ public final class DaggerTranslateApp_HiltComponents_SingletonC {
     @SuppressWarnings("unchecked")
     private void initialize(final SavedStateHandle savedStateHandleParam) {
       this.androidTranslateViewModelProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 0);
+      this.providedVoiceToTextParserProvider = DoubleCheck.provider(new SwitchingProvider<VoiceToTextParser>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 2));
+      this.androidVoiceToTextViewModelProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 1);
     }
 
     @Override
     public Map<String, Provider<ViewModel>> getHiltViewModelMap() {
-      return Collections.<String, Provider<ViewModel>>singletonMap("com.brian.translator_kmm.android.tranaslate.presentation.AndroidTranslateViewModel", ((Provider) androidTranslateViewModelProvider));
+      return MapBuilder.<String, Provider<ViewModel>>newMapBuilder(2).put("com.brian.translator_kmm.android.tranaslate.presentation.AndroidTranslateViewModel", ((Provider) androidTranslateViewModelProvider)).put("com.brian.translator_kmm.android.voiceToText.presentation.AndroidVoiceToTextViewModel", ((Provider) androidVoiceToTextViewModelProvider)).build();
     }
 
     private static final class SwitchingProvider<T> implements Provider<T> {
@@ -437,6 +449,12 @@ public final class DaggerTranslateApp_HiltComponents_SingletonC {
         switch (id) {
           case 0: // com.brian.translator_kmm.android.tranaslate.presentation.AndroidTranslateViewModel 
           return (T) new AndroidTranslateViewModel(singletonCImpl.provideTranslateUseCaseProvider.get(), singletonCImpl.provideHistoryDataSourceProvider.get());
+
+          case 1: // com.brian.translator_kmm.android.voiceToText.presentation.AndroidVoiceToTextViewModel 
+          return (T) new AndroidVoiceToTextViewModel(viewModelCImpl.providedVoiceToTextParserProvider.get());
+
+          case 2: // com.brian.translator_kmm.voicetotext.domain.VoiceToTextParser 
+          return (T) VoiceToTextModule_ProvidedVoiceToTextParserFactory.providedVoiceToTextParser(ApplicationContextModule_ProvideApplicationFactory.provideApplication(singletonCImpl.applicationContextModule));
 
           default: throw new AssertionError(id);
         }

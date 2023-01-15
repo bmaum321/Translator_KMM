@@ -1,0 +1,237 @@
+01-14 22:21:58.267 16224 16247 I TestRunner: started: recordAndTranslate(com.brian.translator_kmm.presentation.VoiceToTextE2E)
+01-14 22:21:58.295 16224 16224 D EventInjectionStrategy: Creating injection strategy with input manager.
+01-14 22:21:58.296 16224 16224 W tor_kmm.android: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+01-14 22:21:58.296 16224 16224 W tor_kmm.android: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+01-14 22:21:58.296 16224 16224 W tor_kmm.android: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+01-14 22:21:58.299 16224 16224 D IdlingResourceRegistry: All idling resources are idle.
+01-14 22:21:58.300 16224 16224 W tor_kmm.android: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+01-14 22:21:58.300 16224 16224 W tor_kmm.android: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+01-14 22:21:58.300 16224 16224 W tor_kmm.android: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+01-14 22:21:58.301 16224 16224 D IdlingResourceRegistry: All idling resources are idle.
+01-14 22:21:58.312 16224 16247 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+01-14 22:21:58.332   955  1016 D SplashScreenView: Build android.window.SplashScreenView{175d4e6 V.E...... ......ID 0,0-0,0}
+01-14 22:21:58.332   955  1016 D SplashScreenView: Icon: view: null drawable: null size: 0
+01-14 22:21:58.332   955  1016 D SplashScreenView: Branding: view: android.view.View{5edea27 G.ED..... ......I. 0,0-0,0 #10204db android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+01-14 22:21:58.348   422   422 D goldfish-address-space: claimShared: Ask to claim region [0x3e8000000 0x3e9124000]
+01-14 22:21:58.349   422   422 D goldfish-address-space: claimShared: Ask to claim region [0x3e93eb000 0x3ea50f000]
+01-14 22:21:58.351 16224 16252 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+01-14 22:21:58.352 16224 16252 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+01-14 22:21:58.353   422   443 D goldfish-address-space: claimShared: Ask to claim region [0x3ec000000 0x3ed124000]
+01-14 22:21:58.353 16224 16252 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+01-14 22:21:58.355   955  1020 W Parcel  : Expecting binder but got null!
+01-14 22:21:58.351  1308  1308 W Choreographer: Frame time is 3.811906 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.367   613   642 W Choreographer: Frame time is 4.478571 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.367  1308  1308 W Choreographer: Frame time is 4.478571 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.375  1308  1965 D EGL_emulation: app_time_stats: avg=1230.31ms min=1230.31ms max=1230.31ms count=1
+01-14 22:21:58.379 16224 16224 D LifecycleMonitor: Lifecycle status change: com.brian.translator_kmm.android.MainActivity@f11570d in: PRE_ON_CREATE
+01-14 22:21:58.381 16224 16224 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+01-14 22:21:58.387   613   642 W Choreographer: Frame time is 1.145237 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.400 16224 16224 D LifecycleMonitor: Lifecycle status change: com.brian.translator_kmm.android.MainActivity@f11570d in: CREATED
+01-14 22:21:58.401 16224 16224 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.brian.translator_kmm.android.MainActivity@f11570d
+01-14 22:21:58.403 16224 16224 D LifecycleMonitor: Lifecycle status change: com.brian.translator_kmm.android.MainActivity@f11570d in: STARTED
+01-14 22:21:58.404 16224 16224 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.brian.translator_kmm.android.MainActivity@f11570d
+01-14 22:21:58.403   613   642 W Choreographer: Frame time is 1.811902 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.408 16224 16224 D LifecycleMonitor: Lifecycle status change: com.brian.translator_kmm.android.MainActivity@f11570d in: RESUMED
+01-14 22:21:58.408 16224 16224 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.brian.translator_kmm.android.MainActivity@f11570d
+01-14 22:21:58.419   613   642 W Choreographer: Frame time is 2.478568 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.435  3124  3124 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+01-14 22:21:58.436  3124  3420 E HwDetectorWithState: a: 3
+01-14 22:21:58.435   613   642 W Choreographer: Frame time is 3.145234 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.451   613   642 W Choreographer: Frame time is 3.811899 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.467   613   642 W Choreographer: Frame time is 4.478565 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.487   613   642 W Choreographer: Frame time is 1.145231 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.490   480   489 W TransactionTracing: Could not find layer handle 0x7678925a1c50
+01-14 22:21:58.490   480   489 W TransactionTracing: Could not find layer handle 0x7678925a1c50
+01-14 22:21:58.503   613   642 W Choreographer: Frame time is 1.811896 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.519   613   642 W Choreographer: Frame time is 2.4785619 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.535   613   642 W Choreographer: Frame time is 3.145227 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.551   613   642 W Choreographer: Frame time is 3.811893 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.559 16224 16224 W tor_kmm.android: Method boolean androidx.compose.runtime.snapshots.SnapshotStateList.conditionalUpdate(kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+01-14 22:21:58.559 16224 16224 W tor_kmm.android: Common causes for lock verification issues are non-optimized dex code
+01-14 22:21:58.559 16224 16224 W tor_kmm.android: and incorrect proguard optimizations.
+01-14 22:21:58.560 16224 16224 W tor_kmm.android: Method java.lang.Object androidx.compose.runtime.snapshots.SnapshotStateList.mutate(kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+01-14 22:21:58.560 16224 16224 W tor_kmm.android: Method void androidx.compose.runtime.snapshots.SnapshotStateList.update(kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+01-14 22:21:58.571   613   642 W Choreographer: Frame time is 0.478559 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.575 16224 16249 D HostConnection: createUnique: call
+01-14 22:21:58.579 16224 16249 D HostConnection: HostConnection::get() New Host Connection established 0x7262aec117d0, tid 16249
+01-14 22:21:58.583 16224 16249 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+01-14 22:21:58.583 16224 16249 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+01-14 22:21:58.583 16224 16249 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+01-14 22:21:58.587   613   642 W Choreographer: Frame time is 1.145224 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.597 16224 16249 D EGL_emulation: eglCreateContext: 0x7262aec0fc10: maj 2 min 0 rcv 2
+01-14 22:21:58.603   613   642 W Choreographer: Frame time is 1.81189 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.619   613   642 W Choreographer: Frame time is 2.478555 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.626 16224 16249 D EGL_emulation: eglMakeCurrent: 0x7262aec0fc10: ver 2 0 (tinfo 0x7264c6dec080) (first time)
+01-14 22:21:58.632   239   239 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+01-14 22:21:58.633 16224 16249 I Gralloc4: mapper 4.x is not supported
+01-14 22:21:58.634 16224 16249 D HostConnection: createUnique: call
+01-14 22:21:58.635 16224 16249 D HostConnection: HostConnection::get() New Host Connection established 0x7262aec11650, tid 16249
+01-14 22:21:58.636 16224 16249 D goldfish-address-space: allocate: Ask for block of size 0x100
+01-14 22:21:58.636 16224 16249 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3dbffe000 size 0x2000
+01-14 22:21:58.637   239   239 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+01-14 22:21:58.638   238   238 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+01-14 22:21:58.638 16224 16249 W Gralloc4: allocator 4.x is not supported
+01-14 22:21:58.635   613   642 W Choreographer: Frame time is 3.145221 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.640   422   422 D goldfish-address-space: claimShared: Ask to claim region [0x3ed159000 0x3ee27d000]
+01-14 22:21:58.646 16224 16249 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+01-14 22:21:58.647   422   422 D goldfish-address-space: claimShared: Ask to claim region [0x3ee27d000 0x3ef3a1000]
+01-14 22:21:58.649   422   422 D goldfish-address-space: claimShared: Ask to claim region [0x3f0000000 0x3f1124000]
+01-14 22:21:58.651   613   642 W Choreographer: Frame time is 3.811887 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.664   480   489 W TransactionTracing: Could not find layer handle 0x7678925a6a50
+01-14 22:21:58.664   480   489 W TransactionTracing: Could not find layer handle 0x7678925a21f0
+01-14 22:21:58.672 16224 16249 W Parcel  : Expecting binder but got null!
+01-14 22:21:58.671   613   642 W Choreographer: Frame time is 0.478552 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:58.677   613   637 W ziparchive: Unable to open '/data/app/~~hZVZA1r5kONZowRJvfzqbQ==/com.brian.translator_kmm.android-r7KFnjAPi1lRHaMoab19qA==/base.dm': No such file or directory
+01-14 22:21:58.677   613   637 I ActivityTaskManager: Displayed com.brian.translator_kmm.android/.MainActivity: +355ms
+01-14 22:21:58.687  1148  1505 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+01-14 22:21:58.687  1148  1505 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+01-14 22:21:58.696   480   489 W TransactionTracing: Could not find layer handle 0x7678925a73b0
+01-14 22:21:58.696   480   489 W TransactionTracing: Could not find layer handle 0x7678925a6b70
+01-14 22:21:58.699  2616  2616 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+01-14 22:21:58.700  2616  2616 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+01-14 22:21:58.700  2616  2616 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.brian.translator_kmm.android fieldId=-1 fieldName=null extras=null}, false)
+01-14 22:21:58.701  2616  2616 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+01-14 22:21:58.715   480   489 W TransactionTracing: Could not find layer handle 0x7678925a4710
+01-14 22:21:58.859 16224 16224 I TextToSpeech: Sucessfully bound to com.google.android.tts
+01-14 22:21:58.866 12535 12535 I GoogleTTSService: Creating Google TTS service, version googletts.google-speech-apk_20220613.02_p4.456265266
+01-14 22:21:58.869 16224 16241 I TextToSpeech: Connected to TTS engine
+01-14 22:21:58.871 12535 15569 W RankedDispatcher: The requested voice is not available for this app identifier
+01-14 22:21:58.871 12535 15569 I GoogleTTSServiceImpl: currentLocale = en-US
+01-14 22:21:58.871 12535 15569 W RankedDispatcher: The requested voice is not available for this app identifier
+01-14 22:21:58.879 12535 15569 I GoogleTTSServiceImpl: For default lang en-us is name en-US-language (en-us-x-sfg-server)
+01-14 22:21:58.883 16224 16258 I TextToSpeech: Setting up the connection to TTS engine...
+01-14 22:21:58.911 16224 16224 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10160; state: ENABLED
+01-14 22:21:58.985   613  2496 W InputManager-JNI: Input channel object 'd6705e9 Splash Screen com.brian.translator_kmm.android (client)' was disposed without first being removed with the input manager!
+01-14 22:21:59.019  1148  1505 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+01-14 22:21:59.019  1148  1505 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+01-14 22:21:59.023  1278  3841 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+01-14 22:21:59.023  1278  3841 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+01-14 22:21:59.024  1278  3841 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+01-14 22:21:59.029  1278  3841 I FontLog : Pulling font file for id = 33, cache size = 5 [CONTEXT service_id=132 ]
+01-14 22:21:59.033  1278  3841 I FontLog : Pulling font file for id = 33, cache size = 5 [CONTEXT service_id=132 ]
+01-14 22:21:59.038 16224 16224 D IdlingResourceRegistry: All idling resources are idle.
+01-14 22:21:59.062 16224 16224 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+01-14 22:21:59.062 16224 16224 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+01-14 22:21:59.088   613   642 W Choreographer: Frame time is 0.081145 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:21:59.131 16224 16238 I TextToSpeech: Disconnected from TTS engine
+01-14 22:21:59.134   613   613 W ServiceConnector.Impl: mayInterruptIfRunning not supported - ignoring
+01-14 22:21:59.282 16224 16224 D IdlingResourceRegistry: All idling resources are idle.
+01-14 22:21:59.540 16224 16224 D IdlingResourceRegistry: All idling resources are idle.
+01-14 22:21:59.761 16224 16224 D IdlingResourceRegistry: All idling resources are idle.
+01-14 22:21:59.762 16224 16224 D IdlingResourceRegistry: All idling resources are idle.
+01-14 22:21:59.762 16224 16224 D IdlingResourceRegistry: All idling resources are idle.
+01-14 22:21:59.827 16224 16224 I TextToSpeech: Sucessfully bound to com.google.android.tts
+01-14 22:21:59.829 12535 12535 I GoogleTTSService: Creating Google TTS service, version googletts.google-speech-apk_20220613.02_p4.456265266
+01-14 22:21:59.832 16224 16238 I TextToSpeech: Connected to TTS engine
+01-14 22:21:59.831 12535 13150 W RankedDispatcher: The requested voice is not available for this app identifier
+01-14 22:21:59.831 12535 13150 I GoogleTTSServiceImpl: currentLocale = en-US
+01-14 22:21:59.835 12535 13150 W RankedDispatcher: The requested voice is not available for this app identifier
+01-14 22:21:59.835 12535 13150 I GoogleTTSServiceImpl: For default lang en-us is name en-US-language (en-us-x-sfg-server)
+01-14 22:21:59.835 16224 16258 I TextToSpeech: Setting up the connection to TTS engine...
+01-14 22:21:59.893 16224 16224 D IdlingResourceRegistry: All idling resources are idle.
+01-14 22:21:59.895 16224 16224 D IdlingResourceRegistry: All idling resources are idle.
+01-14 22:21:59.895 16224 16224 D IdlingResourceRegistry: All idling resources are idle.
+01-14 22:22:00.005 16224 16224 D IdlingResourceRegistry: All idling resources are idle.
+01-14 22:22:00.007   955  1020 D EGL_emulation: app_time_stats: avg=28467.68ms min=28467.68ms max=28467.68ms count=1
+01-14 22:22:00.010 16224 16224 D IdlingResourceRegistry: All idling resources are idle.
+01-14 22:22:00.010 16224 16224 D IdlingResourceRegistry: All idling resources are idle.
+01-14 22:22:00.026   955  1016 D SplashScreenView: Build android.window.SplashScreenView{2f7a4ca V.E...... ......ID 0,0-0,0}
+01-14 22:22:00.026   955  1016 D SplashScreenView: Icon: view: null drawable: null size: 0
+01-14 22:22:00.026   955  1016 D SplashScreenView: Branding: view: android.view.View{5e2e63b G.ED..... ......I. 0,0-0,0 #10204db android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+01-14 22:22:00.028 16224 16224 D LifecycleMonitor: Lifecycle status change: com.brian.translator_kmm.android.MainActivity@f11570d in: PAUSED
+01-14 22:22:00.029 16224 16224 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.brian.translator_kmm.android.MainActivity@f11570d
+01-14 22:22:00.034   397   397 D Zygote  : Forked child process 16268
+01-14 22:22:00.042   422   422 D goldfish-address-space: claimShared: Ask to claim region [0x3e0000000 0x3e1124000]
+01-14 22:22:00.072   422   422 D goldfish-address-space: claimShared: Ask to claim region [0x3e1124000 0x3e2248000]
+01-14 22:22:00.073   422   422 D goldfish-address-space: claimShared: Ask to claim region [0x3e2248000 0x3e336c000]
+01-14 22:22:00.071   955  1020 W Parcel  : Expecting binder but got null!
+01-14 22:22:00.078 16268 16268 I mm.android.test: Late-enabling -Xcheck:jni
+01-14 22:22:00.082   422   422 D goldfish-address-space: claimShared: Ask to claim region [0x3dd9ef000 0x3de4e7000]
+01-14 22:22:00.098 16268 16268 W mm.android.test: Unexpected CPU variant for x86: x86_64.
+01-14 22:22:00.098 16268 16268 W mm.android.test: Known variants: atom, sandybridge, silvermont, kabylake, default
+01-14 22:22:00.102   495   517 I adbd    : jdwp connection from 16268
+01-14 22:22:00.106  1308  1325 W s.nexuslauncher: Reducing the number of considered missed Gc histogram windows from 2297 to 100
+01-14 22:22:00.135 16268 16268 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10161; state: ENABLED
+01-14 22:22:00.139 16268 16268 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+01-14 22:22:00.142 16268 16268 D nativeloader: Configuring classloader-namespace for other apk /system/framework/android.test.mock.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/data/app/~~CrBtKsSKYaBnRkiTNs57QA==/com.brian.translator_kmm.android.test-m6elbH6F0akCYPf0_u8w3A==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.brian.translator_kmm.android.test
+01-14 22:22:00.142 16268 16268 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+01-14 22:22:00.143 16268 16268 W mm.android.test: ClassLoaderContext shared library size mismatch. Expected=0, found=2 (PCL[] | PCL[]{PCL[/system/framework/android.test.base.jar*1628045882]#PCL[/system/framework/android.test.mock.jar*849501951]})
+01-14 22:22:00.145 16268 16268 D nativeloader: Configuring classloader-namespace for other apk /system/framework/android.test.runner.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/data/app/~~CrBtKsSKYaBnRkiTNs57QA==/com.brian.translator_kmm.android.test-m6elbH6F0akCYPf0_u8w3A==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.brian.translator_kmm.android.test
+01-14 22:22:00.147 16268 16268 W ziparchive: Unable to open '/data/app/~~CrBtKsSKYaBnRkiTNs57QA==/com.brian.translator_kmm.android.test-m6elbH6F0akCYPf0_u8w3A==/base.dm': No such file or directory
+01-14 22:22:00.147 16268 16268 W ziparchive: Unable to open '/data/app/~~CrBtKsSKYaBnRkiTNs57QA==/com.brian.translator_kmm.android.test-m6elbH6F0akCYPf0_u8w3A==/base.dm': No such file or directory
+01-14 22:22:00.167 16268 16268 D nativeloader: Configuring classloader-namespace for other apk /data/app/~~CrBtKsSKYaBnRkiTNs57QA==/com.brian.translator_kmm.android.test-m6elbH6F0akCYPf0_u8w3A==/base.apk. target_sdk_version=33, uses_libraries=, library_path=/data/app/~~CrBtKsSKYaBnRkiTNs57QA==/com.brian.translator_kmm.android.test-m6elbH6F0akCYPf0_u8w3A==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.brian.translator_kmm.android.test
+01-14 22:22:00.171 16268 16268 V GraphicsEnvironment: ANGLE Developer option for 'com.brian.translator_kmm.android.test' set to: 'default'
+01-14 22:22:00.171 16268 16268 V GraphicsEnvironment: ANGLE GameManagerService for com.brian.translator_kmm.android.test: false
+01-14 22:22:00.171 16268 16268 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+01-14 22:22:00.173 16268 16268 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+01-14 22:22:00.174 16268 16268 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+01-14 22:22:00.181 16268 16296 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+01-14 22:22:00.183 16268 16296 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+01-14 22:22:00.185 16268 16296 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+01-14 22:22:00.199  1148  1505 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+01-14 22:22:00.199  1148  1505 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+01-14 22:22:00.213   422   422 D goldfish-address-space: claimShared: Ask to claim region [0x3defdf000 0x3dfad7000]
+01-14 22:22:00.231   480   567 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10161 pid=0
+01-14 22:22:00.231   480   567 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10161 => denied (317 us)
+01-14 22:22:00.231   480   567 W ServiceManager: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10161 pid=0
+01-14 22:22:00.231   480   567 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10161 => denied (502 us)
+01-14 22:22:00.232   480   567 W ServiceManager: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10161 pid=0
+01-14 22:22:00.232   480   567 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10161 => denied (466 us)
+01-14 22:22:00.234 16268 16294 D HostConnection: createUnique: call
+01-14 22:22:00.235 16268 16294 D HostConnection: HostConnection::get() New Host Connection established 0x7262aec0f310, tid 16294
+01-14 22:22:00.238 16268 16294 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+01-14 22:22:00.239 16268 16294 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+01-14 22:22:00.239 16268 16294 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+01-14 22:22:00.245 16268 16294 D EGL_emulation: eglCreateContext: 0x7262aec0f910: maj 2 min 0 rcv 2
+01-14 22:22:00.267 16268 16294 D EGL_emulation: eglMakeCurrent: 0x7262aec0f910: ver 2 0 (tinfo 0x7264cc299080) (first time)
+01-14 22:22:00.273   239   239 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+01-14 22:22:00.273 16268 16294 I Gralloc4: mapper 4.x is not supported
+01-14 22:22:00.273 16268 16294 D HostConnection: createUnique: call
+01-14 22:22:00.275 16268 16294 D HostConnection: HostConnection::get() New Host Connection established 0x7262aec10b10, tid 16294
+01-14 22:22:00.275 16268 16294 D goldfish-address-space: allocate: Ask for block of size 0x100
+01-14 22:22:00.275 16268 16294 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3dbffe000 size 0x2000
+01-14 22:22:00.276   239   239 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+01-14 22:22:00.276   238   238 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+01-14 22:22:00.277 16268 16294 W Gralloc4: allocator 4.x is not supported
+01-14 22:22:00.277   422   422 D goldfish-address-space: claimShared: Ask to claim region [0x3e4000000 0x3e5124000]
+01-14 22:22:00.281 16268 16294 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+01-14 22:22:00.282   422   422 D goldfish-address-space: claimShared: Ask to claim region [0x3e5124000 0x3e6248000]
+01-14 22:22:00.284   422   422 D goldfish-address-space: claimShared: Ask to claim region [0x3e6248000 0x3e736c000]
+01-14 22:22:00.292   480   489 W TransactionTracing: Could not find layer handle 0x7678925a8a90
+01-14 22:22:00.292   480   489 W TransactionTracing: Could not find layer handle 0x7678925a8a90
+01-14 22:22:00.292   480   489 W TransactionTracing: Could not find layer handle 0x7678925a8a90
+01-14 22:22:00.294 16268 16294 W Parcel  : Expecting binder but got null!
+01-14 22:22:00.305  1148  1505 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+01-14 22:22:00.306  1148  1505 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+01-14 22:22:00.307   955  1020 D EGL_emulation: app_time_stats: avg=39647276.00ms min=192.14ms max=79294360.00ms count=2
+01-14 22:22:00.316   422   422 D goldfish-address-space: claimShared: Ask to claim region [0x3e8000000 0x3e9124000]
+01-14 22:22:00.315  3124  3124 I GsaVoiceInteractionSrv: Handling ACTION_START_HOTWORD
+01-14 22:22:00.317  3124  3455 I GsaVoiceInteractionSrv: disregardVoiceMatch: false
+01-14 22:22:00.318  3124  3455 I GsaVoiceInteractionSrv: Cannot start hotword, hotword has been explicitly disabled.
+01-14 22:22:00.322   422   422 D goldfish-address-space: claimShared: Ask to claim region [0x3e93eb000 0x3ea50f000]
+01-14 22:22:00.326   422   422 D goldfish-address-space: claimShared: Ask to claim region [0x3ec000000 0x3ed124000]
+01-14 22:22:00.330   422   422 D goldfish-address-space: claimShared: Ask to claim region [0x3f1124000 0x3f2248000]
+01-14 22:22:00.333   422   422 D goldfish-address-space: claimShared: Ask to claim region [0x3f4000000 0x3f5124000]
+01-14 22:22:00.332   480   489 W TransactionTracing: Could not find layer handle 0x7678925a34b0
+01-14 22:22:00.333   480   489 W TransactionTracing: Could not find layer handle 0x7678925a6e70
+01-14 22:22:00.336   422   422 D goldfish-address-space: claimShared: Ask to claim region [0x3f5124000 0x3f6248000]
+01-14 22:22:00.360   480   489 W TransactionTracing: Could not find layer handle 0x7678925a46b0
+01-14 22:22:00.360   480   489 W TransactionTracing: Could not find layer handle 0x7678925a46b0
+01-14 22:22:00.381  2616  2616 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+01-14 22:22:00.382  2616  2616 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+01-14 22:22:00.382  2616  2616 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.apps.nexuslauncher fieldId=-1 fieldName=null extras=null}, false)
+01-14 22:22:00.382  2616  2616 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+01-14 22:22:00.396   480   489 W TransactionTracing: Could not find layer handle 0x7678925a1530
+01-14 22:22:00.403  1308  1308 W Choreographer: Frame time is 1.811776 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:22:00.607 16224 16249 D OpenGLRenderer: endAllActiveAnimators on 0x72632ec2d690 (UnprojectedRipple) with handle 0x72623ec64f60
+01-14 22:22:00.611 16224 16224 D LifecycleMonitor: Lifecycle status change: com.brian.translator_kmm.android.MainActivity@f11570d in: STOPPED
+01-14 22:22:00.611 16224 16224 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.brian.translator_kmm.android.MainActivity@f11570d
+01-14 22:22:00.612   480   489 W TransactionTracing: Could not find layer handle 0x7678925a6570
+01-14 22:22:00.612   480   489 W TransactionTracing: Could not find layer handle 0x7678925a6570
+01-14 22:22:00.619  1308  1308 W Choreographer: Frame time is 2.478429 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+01-14 22:22:00.626   613   613 W ServiceConnector.Impl: mayInterruptIfRunning not supported - ignoring
+01-14 22:22:00.627 16224 16265 I TextToSpeech: Disconnected from TTS engine
+01-14 22:22:00.634 16224 16224 D LifecycleMonitor: Lifecycle status change: com.brian.translator_kmm.android.MainActivity@f11570d in: DESTROYED
+01-14 22:22:00.634 16224 16224 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+01-14 22:22:00.637   613  2496 W InputManager-JNI: Input channel object '2f2c32a com.brian.translator_kmm.android/com.brian.translator_kmm.android.MainActivity (client)' was disposed without first being removed with the input manager!
+01-14 22:22:00.639 16224 16247 I TestRunner: finished: recordAndTranslate(com.brian.translator_kmm.presentation.VoiceToTextE2E)

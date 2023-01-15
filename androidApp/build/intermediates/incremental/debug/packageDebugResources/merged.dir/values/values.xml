@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="apply">Apply</string>
     <string name="cancel">Cancel</string>
     <string name="clear_history">Clear History?</string>
     <string name="clear_history_dialog">Click confirm to clear translation history</string>
@@ -11,13 +12,18 @@
     <string name="delete_translate_history">Delete Translation HIstory</string>
     <string name="enter_a_text_to_translate">Enter a text to translate</string>
     <string name="error_service_unavailable">Service Unavailable</string>
+    <string name="error_speeach_recog_not_available">\"Speech recognition is not available\"</string>
     <string name="history">History</string>
     <string name="history_deleted">Translate history deleted</string>
+    <string name="listening">Listening</string>
     <string name="open">Open</string>
     <string name="play_loud">Play Loud</string>
+    <string name="record_again">Record again</string>
     <string name="record_audio">Record Audio</string>
     <string name="scroll_to_top">Scroll to top</string>
     <string name="server_error">Server Error</string>
+    <string name="start_talking">Click record and start talking</string>
+    <string name="stop_recording">Stop recording</string>
     <string name="swap_languages">Swap languages</string>
     <string name="translate">Translate</string>
     <string name="undo">Undo</string>

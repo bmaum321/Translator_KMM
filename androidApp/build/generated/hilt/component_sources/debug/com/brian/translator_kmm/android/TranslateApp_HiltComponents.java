@@ -2,6 +2,8 @@ package com.brian.translator_kmm.android;
 
 import com.brian.translator_kmm.android.di.AppModule;
 import com.brian.translator_kmm.android.tranaslate.presentation.AndroidTranslateViewModel_HiltModules;
+import com.brian.translator_kmm.android.voiceToText.di.VoiceToTextModule;
+import com.brian.translator_kmm.android.voiceToText.presentation.AndroidVoiceToTextViewModel_HiltModules;
 import dagger.Binds;
 import dagger.Component;
 import dagger.Module;
@@ -144,6 +146,7 @@ public final class TranslateApp_HiltComponents {
   @Subcomponent(
       modules = {
           AndroidTranslateViewModel_HiltModules.KeyModule.class,
+          AndroidVoiceToTextViewModel_HiltModules.KeyModule.class,
           HiltWrapper_ActivityRetainedComponentManager_LifecycleModule.class,
           ActivityCBuilderModule.class,
           ViewModelCBuilderModule.class
@@ -183,7 +186,9 @@ public final class TranslateApp_HiltComponents {
   @Subcomponent(
       modules = {
           AndroidTranslateViewModel_HiltModules.BindsModule.class,
-          HiltWrapper_HiltViewModelFactory_ViewModelModule.class
+          AndroidVoiceToTextViewModel_HiltModules.BindsModule.class,
+          HiltWrapper_HiltViewModelFactory_ViewModelModule.class,
+          VoiceToTextModule.class
       }
   )
   @ViewModelScoped

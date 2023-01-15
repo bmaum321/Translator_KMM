@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.brian.translator_kmm.presentation.VoiceToTextE2E" tests="1" failures="0" errors="0" skipped="0" time="2.53" timestamp="2023-01-15T03:22:00" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_6_Pro_API_33(AVD) - 13" />
+    <property name="flavor" value="" />
+    <property name="project" value=":androidApp" />
+  </properties>
+  <testcase name="recordAndTranslate" classname="com.brian.translator_kmm.presentation.VoiceToTextE2E" time="2.341" />
+</testsuite>
