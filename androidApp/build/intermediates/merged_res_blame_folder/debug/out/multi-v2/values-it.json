@@ -4,7 +4,24 @@
             "outputFile": "com.brian.translator_kmm.android.androidApp-mergeDebugResources-56:/values-it/values-it.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\4cbf14652e5b980d47914c55998a660d\\transformed\\core-1.9.0\\res\\values-it\\values-it.xml",
+                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\41cf2dc63f61658e0c439a798b598c0a\\transformed\\material3-1.1.0-alpha04\\res\\values-it\\values-it.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,143,228,301,386,457",
+                        "endColumns": "87,84,72,84,70,98",
+                        "endOffsets": "138,223,296,381,452,551"
+                    },
+                    "to": {
+                        "startLines": "4,7,8,10,19,22",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "292,578,663,823,1582,1839",
+                        "endColumns": "87,84,72,84,70,98",
+                        "endOffsets": "375,658,731,903,1648,1933"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\8b463ace8e4b817176686cab0645b4c4\\transformed\\core-1.9.0\\res\\values-it\\values-it.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\1fcbfc9bfb6e5539a769a0b7a364c8f6\\transformed\\ui-1.4.0-alpha04\\res\\values-it\\values-it.xml",
+                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\7de88937cc72533e99d678cb5895b07c\\transformed\\ui-1.4.0-alpha04\\res\\values-it\\values-it.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,23 +52,6 @@
                         "startOffsets": "105,205,380,478,736,908,987,1093,1186,1281,1346,1410,1494,1653,1938,2016,2085",
                         "endColumns": "99,86,97,99,86,78,105,92,94,64,63,83,87,84,77,68,120",
                         "endOffsets": "200,287,473,573,818,982,1088,1181,1276,1341,1405,1489,1577,1733,2011,2080,2201"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\e7ce07f42eb7acb5857a0d2a625853c2\\transformed\\material3-1.1.0-alpha04\\res\\values-it\\values-it.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,143,228,301,386,457",
-                        "endColumns": "87,84,72,84,70,98",
-                        "endOffsets": "138,223,296,381,452,551"
-                    },
-                    "to": {
-                        "startLines": "4,7,8,10,19,22",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "292,578,663,823,1582,1839",
-                        "endColumns": "87,84,72,84,70,98",
-                        "endOffsets": "375,658,731,903,1648,1933"
                     }
                 }
             ]

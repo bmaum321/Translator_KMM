@@ -4,7 +4,24 @@
             "outputFile": "com.brian.translator_kmm.android.androidApp-mergeDebugResources-56:/values-sr/values-sr.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\e7ce07f42eb7acb5857a0d2a625853c2\\transformed\\material3-1.1.0-alpha04\\res\\values-sr\\values-sr.xml",
+                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\8b463ace8e4b817176686cab0645b4c4\\transformed\\core-1.9.0\\res\\values-sr\\values-sr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "1677",
+                        "endColumns": "100",
+                        "endOffsets": "1773"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\41cf2dc63f61658e0c439a798b598c0a\\transformed\\material3-1.1.0-alpha04\\res\\values-sr\\values-sr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\1fcbfc9bfb6e5539a769a0b7a364c8f6\\transformed\\ui-1.4.0-alpha04\\res\\values-sr\\values-sr.xml",
+                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\7de88937cc72533e99d678cb5895b07c\\transformed\\ui-1.4.0-alpha04\\res\\values-sr\\values-sr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,23 +52,6 @@
                         "startOffsets": "105,202,369,466,713,879,956,1047,1139,1224,1295,1365,1445,1604,1881,1960,2030",
                         "endColumns": "96,86,96,100,85,76,90,91,84,70,69,79,84,72,78,69,117",
                         "endOffsets": "197,284,461,562,794,951,1042,1134,1219,1290,1360,1440,1525,1672,1955,2025,2143"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\4cbf14652e5b980d47914c55998a660d\\transformed\\core-1.9.0\\res\\values-sr\\values-sr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "21",
-                        "startColumns": "4",
-                        "startOffsets": "1677",
-                        "endColumns": "100",
-                        "endOffsets": "1773"
                     }
                 }
             ]

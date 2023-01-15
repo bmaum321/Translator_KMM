@@ -4,24 +4,24 @@
             "outputFile": "com.brian.translator_kmm.android.androidApp-mergeDebugResources-56:/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\4cbf14652e5b980d47914c55998a660d\\transformed\\core-1.9.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\7de88937cc72533e99d678cb5895b07c\\transformed\\ui-1.4.0-alpha04\\res\\values-zh-rHK\\values-zh-rHK.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,181,255,343,434,512,586,663,741,815,878,941,1014,1089,1156,1231,1296",
+                        "endColumns": "75,73,87,90,77,73,76,77,73,62,62,72,74,66,74,64,115",
+                        "endOffsets": "176,250,338,429,507,581,658,736,810,873,936,1009,1084,1151,1226,1291,1407"
                     },
                     "to": {
-                        "startLines": "21",
-                        "startColumns": "4",
-                        "startOffsets": "1505",
-                        "endColumns": "100",
-                        "endOffsets": "1601"
+                        "startLines": "2,3,5,6,9,11,12,13,14,15,16,17,18,20,23,24,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,181,327,415,644,793,867,944,1022,1096,1159,1222,1295,1438,1691,1766,1831",
+                        "endColumns": "75,73,87,90,77,73,76,77,73,62,62,72,74,66,74,64,115",
+                        "endOffsets": "176,250,410,501,717,862,939,1017,1091,1154,1217,1290,1365,1500,1761,1826,1942"
                     }
                 },
                 {
-                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\e7ce07f42eb7acb5857a0d2a625853c2\\transformed\\material3-1.1.0-alpha04\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\41cf2dc63f61658e0c439a798b598c0a\\transformed\\material3-1.1.0-alpha04\\res\\values-zh-rHK\\values-zh-rHK.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
@@ -38,20 +38,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\1fcbfc9bfb6e5539a769a0b7a364c8f6\\transformed\\ui-1.4.0-alpha04\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\8b463ace8e4b817176686cab0645b4c4\\transformed\\core-1.9.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,181,255,343,434,512,586,663,741,815,878,941,1014,1089,1156,1231,1296",
-                        "endColumns": "75,73,87,90,77,73,76,77,73,62,62,72,74,66,74,64,115",
-                        "endOffsets": "176,250,338,429,507,581,658,736,810,873,936,1009,1084,1151,1226,1291,1407"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "2,3,5,6,9,11,12,13,14,15,16,17,18,20,23,24,25",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,181,327,415,644,793,867,944,1022,1096,1159,1222,1295,1438,1691,1766,1831",
-                        "endColumns": "75,73,87,90,77,73,76,77,73,62,62,72,74,66,74,64,115",
-                        "endOffsets": "176,250,410,501,717,862,939,1017,1091,1154,1217,1290,1365,1500,1761,1826,1942"
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "1505",
+                        "endColumns": "100",
+                        "endOffsets": "1601"
                     }
                 }
             ]

@@ -119,6 +119,13 @@ fun TranslateScreen(
             onEvent(TranslateEvent.OnErrorScreen)
         }
     }
+
+    /**
+     * Close current translation if scrolling through history
+     */
+    LaunchedEffect( showTextToSpeechButton ) {
+        onEvent(TranslateEvent.CloseTranslation)
+    }
     Scaffold(
         floatingActionButton = {
             AnimatedContent(

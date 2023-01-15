@@ -4,24 +4,7 @@
             "outputFile": "com.brian.translator_kmm.android.androidApp-mergeDebugResources-56:/values-vi/values-vi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\e7ce07f42eb7acb5857a0d2a625853c2\\transformed\\material3-1.1.0-alpha04\\res\\values-vi\\values-vi.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,134,209,280,358,432",
-                        "endColumns": "78,74,70,77,73,102",
-                        "endOffsets": "129,204,275,353,427,530"
-                    },
-                    "to": {
-                        "startLines": "4,7,8,10,19,22",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "287,572,647,810,1562,1809",
-                        "endColumns": "78,74,70,77,73,102",
-                        "endOffsets": "361,642,713,883,1631,1907"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\1fcbfc9bfb6e5539a769a0b7a364c8f6\\transformed\\ui-1.4.0-alpha04\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\7de88937cc72533e99d678cb5895b07c\\transformed\\ui-1.4.0-alpha04\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\4cbf14652e5b980d47914c55998a660d\\transformed\\core-1.9.0\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\41cf2dc63f61658e0c439a798b598c0a\\transformed\\material3-1.1.0-alpha04\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,134,209,280,358,432",
+                        "endColumns": "78,74,70,77,73,102",
+                        "endOffsets": "129,204,275,353,427,530"
+                    },
+                    "to": {
+                        "startLines": "4,7,8,10,19,22",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "287,572,647,810,1562,1809",
+                        "endColumns": "78,74,70,77,73,102",
+                        "endOffsets": "361,642,713,883,1631,1907"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\8b463ace8e4b817176686cab0645b4c4\\transformed\\core-1.9.0\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -4,24 +4,7 @@
             "outputFile": "com.brian.translator_kmm.android.androidApp-mergeDebugResources-56:/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\1fcbfc9bfb6e5539a769a0b7a364c8f6\\transformed\\ui-1.4.0-alpha04\\res\\values-pt-rBR\\values-pt-rBR.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,200,286,383,482,568,651,748,839,926,998,1067,1152,1242,1318,1394,1461",
-                        "endColumns": "94,85,96,98,85,82,96,90,86,71,68,84,89,75,75,66,112",
-                        "endOffsets": "195,281,378,477,563,646,743,834,921,993,1062,1147,1237,1313,1389,1456,1569"
-                    },
-                    "to": {
-                        "startLines": "2,3,5,6,9,11,12,13,14,15,16,17,18,20,23,24,25",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,200,362,459,716,876,959,1056,1147,1234,1306,1375,1460,1624,1898,1974,2041",
-                        "endColumns": "94,85,96,98,85,82,96,90,86,71,68,84,89,75,75,66,112",
-                        "endOffsets": "195,281,454,553,797,954,1051,1142,1229,1301,1370,1455,1545,1695,1969,2036,2149"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\e7ce07f42eb7acb5857a0d2a625853c2\\transformed\\material3-1.1.0-alpha04\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\41cf2dc63f61658e0c439a798b598c0a\\transformed\\material3-1.1.0-alpha04\\res\\values-pt-rBR\\values-pt-rBR.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\4cbf14652e5b980d47914c55998a660d\\transformed\\core-1.9.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\7de88937cc72533e99d678cb5895b07c\\transformed\\ui-1.4.0-alpha04\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,286,383,482,568,651,748,839,926,998,1067,1152,1242,1318,1394,1461",
+                        "endColumns": "94,85,96,98,85,82,96,90,86,71,68,84,89,75,75,66,112",
+                        "endOffsets": "195,281,378,477,563,646,743,834,921,993,1062,1147,1237,1313,1389,1456,1569"
+                    },
+                    "to": {
+                        "startLines": "2,3,5,6,9,11,12,13,14,15,16,17,18,20,23,24,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,362,459,716,876,959,1056,1147,1234,1306,1375,1460,1624,1898,1974,2041",
+                        "endColumns": "94,85,96,98,85,82,96,90,86,71,68,84,89,75,75,66,112",
+                        "endOffsets": "195,281,454,553,797,954,1051,1142,1229,1301,1370,1455,1545,1695,1969,2036,2149"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bmaum\\.gradle\\caches\\transforms-3\\8b463ace8e4b817176686cab0645b4c4\\transformed\\core-1.9.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
