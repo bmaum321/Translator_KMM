@@ -28,5 +28,7 @@ sealed class TranslateEvent {
     object OnErrorScreen: TranslateEvent()
     object ClearTranslateHistory: TranslateEvent()
     object InsertAllHistoryItems: TranslateEvent()
+    object CloseTranslationOnHistoryScroll: TranslateEvent()
+    object ClearFromText: TranslateEvent()
 
 }

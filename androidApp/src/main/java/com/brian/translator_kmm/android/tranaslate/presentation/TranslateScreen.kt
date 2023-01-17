@@ -120,12 +120,21 @@ fun TranslateScreen(
         }
     }
 
+
     /**
      * Close current translation if scrolling through history
+     *
+     * This gets called after submitting a voice result via tts, because it seems like the state
+     * isn't surviving recomposition, which effectively breaks the feature
+     * because it sets to from text to an empty string. There are a few ways to solve this,
+     * could track if from text in state came from tts or text.
+     *
+     * I decided to just not clear the text field for simplicity using a new callback
      */
     LaunchedEffect( showTextToSpeechButton ) {
-        onEvent(TranslateEvent.CloseTranslation)
+        onEvent(TranslateEvent.CloseTranslationOnHistoryScroll)
     }
+
     Scaffold(
         floatingActionButton = {
             AnimatedContent(
@@ -257,7 +266,10 @@ fun TranslateScreen(
                 onCloseClick = {
                     onEvent(TranslateEvent.CloseTranslation)
                 },
-                modifier = Modifier.fillMaxWidth()
+                modifier = Modifier.fillMaxWidth(),
+                onClearClick = {
+                    onEvent(TranslateEvent.ClearFromText)
+                }
             )
             Spacer(modifier = Modifier.height(8.dp))
 

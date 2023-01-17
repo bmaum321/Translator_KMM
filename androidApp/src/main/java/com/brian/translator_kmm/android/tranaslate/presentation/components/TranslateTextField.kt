@@ -8,6 +8,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Clear
 import androidx.compose.material.icons.rounded.Close
 import androidx.compose.material3.Divider
 import androidx.compose.material3.Icon
@@ -44,7 +45,8 @@ fun TranslateTextField(
     onSpeakerClick: () -> Unit,
     onTextFieldClick: () -> Unit,
     modifier: Modifier = Modifier,
-    onCloseClick: () -> Unit
+    onCloseClick: () -> Unit,
+    onClearClick: () -> Unit,
 ) {
     Box(
         modifier = modifier
@@ -69,7 +71,8 @@ fun TranslateTextField(
                     onTextChange = onTextChange,
                     modifier = Modifier
                         .fillMaxWidth()
-                        .aspectRatio(2f)
+                        .aspectRatio(2f),
+                    onClearClick = onClearClick
                 )
             } else {
                 TranslatedTextField(
@@ -98,7 +101,7 @@ private fun TranslatedTextField(
     onCopyClick: (String) -> Unit,
     onCloseClick: () -> Unit,
     onSpeakerClick: () -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
 ) {
     Column(
         modifier = modifier
@@ -164,14 +167,14 @@ private fun TranslatedTextField(
 }
 
 
-
 @Composable
 private fun IdleTranslateTextField(
     fromText: String,
     isTranslating: Boolean,
     onTranslateClick: () -> Unit,
     onTextChange: (String) -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    onClearClick: () -> Unit
 ) {
     var isFocused by remember {
         mutableStateOf(false)
@@ -183,11 +186,24 @@ private fun IdleTranslateTextField(
             cursorBrush = SolidColor(MaterialTheme.colorScheme.primary),
             modifier = Modifier
                 .fillMaxSize()
+                .padding(end=30.dp)
                 .onFocusChanged { isFocused = it.isFocused },
             textStyle = TextStyle(
                 color = MaterialTheme.colorScheme.onSurface
             )
         )
+        if(fromText.isNotBlank()) {
+            IconButton(
+                onClick = onClearClick,
+                modifier = Modifier.align(Alignment.TopEnd),
+            ) {
+                Icon(
+                    imageVector = Icons.Default.Clear,
+                    contentDescription = stringResource(id = R.string.close)
+                )
+
+            }
+        }
         if (fromText.isEmpty() && !isFocused) {
             Text(
                 text = stringResource(id = R.string.enter_a_text_to_translate),

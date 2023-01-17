@@ -205,6 +205,14 @@ class TranslateViewModel(
                     )
                 }
             }
+            TranslateEvent.CloseTranslationOnHistoryScroll -> {
+                _state.update {
+                    it.copy(
+                        isTranslating = false,
+                        toText = null
+                    )
+                }
+            }
             TranslateEvent.OpenFromLanguageDropDown -> {
                 _state.update {
                     it.copy(
@@ -216,6 +224,13 @@ class TranslateViewModel(
                 _state.update {
                     it.copy(
                         isChoosingToLanguage = true,
+                    )
+                }
+            }
+            TranslateEvent.ClearFromText -> {
+                _state.update {
+                    it.copy(
+                        fromText = "",
                     )
                 }
             }
